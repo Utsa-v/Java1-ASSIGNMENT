@@ -17,12 +17,12 @@ public class Q3 {
             case 1: {
                 System.out.print("Enter the Radius :");
                 r= sc.nextDouble();
-                System.out.println("Area of Circle" +(pai));
+                System.out.println("Area of Circle" +(pai*r*r));
             }
             case 2:{
                 System.out.print("Enter the Radius :");
                 r= sc.nextDouble();
-                System.out.println("Circumference of Circle" +(2*pai));
+                System.out.println("Circumference of Circle" +(2*pai*r));
 
             }
             case 3:{
@@ -32,3 +32,4 @@ public class Q3 {
         }
    }
 }
+
